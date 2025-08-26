@@ -1,0 +1,4 @@
+(ns src\module)
+
+(defn hello-src [x]
+  (str "(src/module-src.phel): " x))

@@ -1,0 +1,4 @@
+(ns main-root
+  (:require root\module :refer [hello-root]))
+
+(println (hello-root "phar require from root works"))

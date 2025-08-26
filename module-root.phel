@@ -1,0 +1,4 @@
+(ns root\module)
+
+(defn hello-root [x]
+  (str "(module-root.phel): " x))

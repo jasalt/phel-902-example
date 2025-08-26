@@ -1,0 +1,4 @@
+(ns main-src
+  (:require src\module :refer [hello-src]))
+
+(println (hello-src "phar require from src/ works"))
